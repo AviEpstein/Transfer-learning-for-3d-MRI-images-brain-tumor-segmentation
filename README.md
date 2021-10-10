@@ -7,7 +7,7 @@ segmentation. Given the Multimodal Brain Tumor Segmentation Challenge (BraTS) 20
 training dataset. To achieve this goal we have used the backbone of a pretrained resnet
 nammed Med3Dl net(link) this pretrained network was trained on a diverse set of medical 3d
 images acquired from x-ray CT and MRI to generally segment internal body parts. We use this
-backbone for transfer leaning on our 4 different types of MRI input images (T1,T1ce,T2,Flair)
+backbone for transfer learning on our 4 different types of MRI input images (T1,T1ce,T2,Flair)
 each one of these input images is inserted to the mednet and concatenated at the output. Doing
 this achieves good global segmentation of the different parts of the brian but is not specific
 enough to segment the exact tumor. Hence we have combined this system to a unet inspired
