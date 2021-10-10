@@ -1,4 +1,4 @@
-# Transfer-learning-for-3d-MRI-images-brain-tumor-segmentation
+# Transfer-learning-for-3d-MRI-images-brain-tumor-segmentation by Avi Epstein and Tomer shimshi
 
 Brain tumor segmentation is a critical task for patient’s disease management.
 Currently MRI’s are hand annotated by a neurologist which is highly time consuming and
